@@ -1,36 +1,127 @@
-# Buttons for Markdown
+# Payment & Sponsorship Buttons for Markdown
 
-Welcome to our repository of button images for Markdown!
+A curated collection of ready-to-use buttons for **Buy Me a Coffee**, **PayPal**, and **GitHub Sponsors** — perfect for README files, documentation, landing pages, or any Markdown content.
 
-This repository is free and public, available for anyone to use as needed. Here you will find a collection of button images that you can use to link in your Markdown projects.
+All assets are free, public, and served directly via GitHub's raw CDN.
 
-## Repository Contents
+---
 
-- A collection of button images in different styles and colors.
-- Examples of how to use these buttons in Markdown.
+## Available Buttons
 
-## How to Use the Images
+Each service provides two visual variants:
 
-You can use these images in your Markdown files to create buttons with links. Here's how to do it:
+| Variant | Description |
+|---|---|
+| **Standard** | Outlined icon — clean and minimal |
+| **Fill** | Solid icon — bolder and more prominent |
 
-1. **Select an image**: Browse through the repository folders and choose the button image you like.
-2. **Copy the image URL**: Right-click on the image and select "Copy image address".
-3. **Insert the image in your Markdown file**: Use the following format to insert the image in your Markdown file with a link:
+| Service | Directory | Standard | Fill |
+|---|---|---|---|
+| ☕ Buy Me a Coffee | `buy_me_a_coffe/` | `buy_me_a_coffe.svg` | `buy_me_a_coffe_fill.svg` |
+| 💰 PayPal | `paypal/` | `paypal.svg` | `paypal_fill.svg` |
+| ❤️ GitHub Sponsor | `github_sponsor/` | `github_sponsor.svg` | `github_sponsor_fill.svg` |
 
-e.g.
+> **Note:** Old button designs have been moved to `buy_me_a_coffe_old/` and `paypal_old/` and are no longer recommended for use.
 
-[![Buy me a Coffe](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/buy-me-a-coffe.png)](https://www.buymeacoffee.com/luisgamas)
+---
 
+## Usage
+
+### Markdown syntax
+
+```markdown
+[![Button label](IMAGE_URL)](LINK_URL)
 ```
-[![Alt Text](IMAGE_URL)](LINK_URL)
+
+### HTML syntax (custom size)
+
+```html
+<a href="LINK_URL">
+  <img src="IMAGE_URL" width="220" alt="Button label" />
+</a>
 ```
 
-If you prefer to adjust the size to a defined percentage or measurement use
+---
 
+## Examples
 
-<a href="https://www.paypal.com/donate/?hosted_button_id=NYCR5M6QHZ7JC"><img src="https://raw.githubusercontent.com/LuisGamas/buttons-design/main/paypal_donations.png" width="250" /></a>
+### ☕ Buy Me a Coffee
 
+| Style | Preview |
+|---|---|
+| Standard | [![Buy me a Coffee](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/buy_me_a_coffe/buy_me_a_coffe.png)](https://www.buymeacoffee.com/luisgamas) |
+| Fill | [![Buy me a Coffee](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/buy_me_a_coffe/buy_me_a_coffe_fill.png)](https://www.buymeacoffee.com/luisgamas) |
+
+```markdown
+[![Buy me a Coffee](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/buy_me_a_coffe/buy_me_a_coffe.png)](https://www.buymeacoffee.com/luisgamas)
 ```
 
-<a href="https://www.paypal.com/donate/?hosted_button_id=NYCR5M6QHZ7JC"><img src="https://raw.githubusercontent.com/LuisGamas/buttons-design/main/paypal_donations.png" width="250" /></a>
+```markdown
+[![Buy me a Coffee](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/buy_me_a_coffe/buy_me_a_coffe_fill.png)](https://www.buymeacoffee.com/luisgamas)
 ```
+
+### 💰 PayPal
+
+| Style | Preview |
+|---|---|
+| Standard | [![Donate with PayPal](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/paypal/paypal.png)](https://www.paypal.com/donate/?hosted_button_id=NYCR5M6QHZ7JC) |
+| Fill | [![Donate with PayPal](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/paypal/paypal_fill.png)](https://www.paypal.com/donate/?hosted_button_id=NYCR5M6QHZ7JC) |
+
+```markdown
+[![Donate with PayPal](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/paypal/paypal.png)](https://www.paypal.com/donate/?hosted_button_id=NYCR5M6QHZ7JC)
+```
+
+```markdown
+[![Donate with PayPal](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/paypal/paypal_fill.png)](https://www.paypal.com/donate/?hosted_button_id=NYCR5M6QHZ7JC)
+```
+
+### ❤️ GitHub Sponsor
+
+| Style | Preview |
+|---|---|
+| Standard | [![Sponsor me on GitHub](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/github_sponsor/github_sponsor.png)](https://github.com/sponsors/LuisGamas) |
+| Fill | [![Sponsor me on GitHub](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/github_sponsor/github_sponsor_fill.png)](https://github.com/sponsors/LuisGamas) |
+
+```markdown
+[![Sponsor me on GitHub](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/github_sponsor/github_sponsor.png)](https://github.com/sponsors/LuisGamas)
+```
+
+```markdown
+[![Sponsor me on GitHub](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/github_sponsor/github_sponsor_fill.png)](https://github.com/sponsors/LuisGamas)
+```
+
+---
+
+## Custom sizing (HTML)
+
+When you need a specific button size, use the HTML `<img>` tag with a `width` attribute:
+
+```html
+<a href="https://www.buymeacoffee.com/luisgamas">
+  <img src="https://raw.githubusercontent.com/LuisGamas/buttons-design/main/buy_me_a_coffe/buy_me_a_coffe.png" width="200" alt="Buy me a Coffee" />
+</a>
+```
+
+```html
+<a href="https://www.paypal.com/donate/?hosted_button_id=NYCR5M6QHZ7JC">
+  <img src="https://raw.githubusercontent.com/LuisGamas/buttons-design/main/paypal/paypal.png" width="200" alt="Donate with PayPal" />
+</a>
+```
+
+```html
+<a href="https://github.com/sponsors/LuisGamas">
+  <img src="https://raw.githubusercontent.com/LuisGamas/buttons-design/main/github_sponsor/github_sponsor.png" width="200" alt="Sponsor me on GitHub" />
+</a>
+```
+
+---
+
+## File format & compatibility
+
+All buttons are provided in **SVG** (scalable, crisp at any size) and **PNG** (fallback for environments that do not render SVGs). We recommend using the PNG versions in Markdown for maximum compatibility across platforms (GitHub, GitLab, npm, etc.).
+
+---
+
+## License
+
+This project is open and free to use. Feel free to include these buttons in your own projects without attribution.
