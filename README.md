@@ -49,45 +49,45 @@ Each service provides two visual variants:
 
 | Style | Preview |
 |---|---|
-| Standard | [![Buy me a Coffee](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/buy_me_a_coffe/buy_me_a_coffe.png)](https://www.buymeacoffee.com/luisgamas) |
-| Fill | [![Buy me a Coffee](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/buy_me_a_coffe/buy_me_a_coffe_fill.png)](https://www.buymeacoffee.com/luisgamas) |
+| Standard | [![Buy me a Coffee](https://raw.githubusercontent.com/luisgamas/buttons-design/main/buy_me_a_coffe/buy_me_a_coffe.png)](https://www.buymeacoffee.com/luisgamas) |
+| Fill | [![Buy me a Coffee](https://raw.githubusercontent.com/luisgamas/buttons-design/main/buy_me_a_coffe/buy_me_a_coffe_fill.png)](https://www.buymeacoffee.com/luisgamas) |
 
 ```markdown
-[![Buy me a Coffee](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/buy_me_a_coffe/buy_me_a_coffe.png)](https://www.buymeacoffee.com/luisgamas)
+[![Buy me a Coffee](https://raw.githubusercontent.com/luisgamas/buttons-design/main/buy_me_a_coffe/buy_me_a_coffe.png)](https://www.buymeacoffee.com/luisgamas)
 ```
 
 ```markdown
-[![Buy me a Coffee](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/buy_me_a_coffe/buy_me_a_coffe_fill.png)](https://www.buymeacoffee.com/luisgamas)
+[![Buy me a Coffee](https://raw.githubusercontent.com/luisgamas/buttons-design/main/buy_me_a_coffe/buy_me_a_coffe_fill.png)](https://www.buymeacoffee.com/luisgamas)
 ```
 
 ### 💰 PayPal
 
 | Style | Preview |
 |---|---|
-| Standard | [![Donate with PayPal](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/paypal/paypal.png)](https://www.paypal.com/donate/?hosted_button_id=NYCR5M6QHZ7JC) |
-| Fill | [![Donate with PayPal](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/paypal/paypal_fill.png)](https://www.paypal.com/donate/?hosted_button_id=NYCR5M6QHZ7JC) |
+| Standard | [![Donate with PayPal](https://raw.githubusercontent.com/luisgamas/buttons-design/main/paypal/paypal.png)](https://www.paypal.com/donate/?hosted_button_id=NYCR5M6QHZ7JC) |
+| Fill | [![Donate with PayPal](https://raw.githubusercontent.com/luisgamas/buttons-design/main/paypal/paypal_fill.png)](https://www.paypal.com/donate/?hosted_button_id=NYCR5M6QHZ7JC) |
 
 ```markdown
-[![Donate with PayPal](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/paypal/paypal.png)](https://www.paypal.com/donate/?hosted_button_id=NYCR5M6QHZ7JC)
+[![Donate with PayPal](https://raw.githubusercontent.com/luisgamas/buttons-design/main/paypal/paypal.png)](https://www.paypal.com/donate/?hosted_button_id=NYCR5M6QHZ7JC)
 ```
 
 ```markdown
-[![Donate with PayPal](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/paypal/paypal_fill.png)](https://www.paypal.com/donate/?hosted_button_id=NYCR5M6QHZ7JC)
+[![Donate with PayPal](https://raw.githubusercontent.com/luisgamas/buttons-design/main/paypal/paypal_fill.png)](https://www.paypal.com/donate/?hosted_button_id=NYCR5M6QHZ7JC)
 ```
 
 ### ❤️ GitHub Sponsor
 
 | Style | Preview |
 |---|---|
-| Standard | [![Sponsor me on GitHub](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/github_sponsor/github_sponsor.png)](https://github.com/sponsors/LuisGamas) |
-| Fill | [![Sponsor me on GitHub](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/github_sponsor/github_sponsor_fill.png)](https://github.com/sponsors/LuisGamas) |
+| Standard | [![Sponsor me on GitHub](https://raw.githubusercontent.com/luisgamas/buttons-design/main/github_sponsor/github_sponsor.png)](https://github.com/sponsors/luisgamas) |
+| Fill | [![Sponsor me on GitHub](https://raw.githubusercontent.com/luisgamas/buttons-design/main/github_sponsor/github_sponsor_fill.png)](https://github.com/sponsors/luisgamas) |
 
 ```markdown
-[![Sponsor me on GitHub](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/github_sponsor/github_sponsor.png)](https://github.com/sponsors/LuisGamas)
+[![Sponsor me on GitHub](https://raw.githubusercontent.com/luisgamas/buttons-design/main/github_sponsor/github_sponsor.png)](https://github.com/sponsors/luisgamas)
 ```
 
 ```markdown
-[![Sponsor me on GitHub](https://raw.githubusercontent.com/LuisGamas/buttons-design/main/github_sponsor/github_sponsor_fill.png)](https://github.com/sponsors/LuisGamas)
+[![Sponsor me on GitHub](https://raw.githubusercontent.com/luisgamas/buttons-design/main/github_sponsor/github_sponsor_fill.png)](https://github.com/sponsors/luisgamas)
 ```
 
 ---
@@ -98,19 +98,19 @@ When you need a specific button size, use the HTML `<img>` tag with a `width` at
 
 ```html
 <a href="https://www.buymeacoffee.com/luisgamas">
-  <img src="https://raw.githubusercontent.com/LuisGamas/buttons-design/main/buy_me_a_coffe/buy_me_a_coffe.png" width="200" alt="Buy me a Coffee" />
+  <img src="https://raw.githubusercontent.com/luisgamas/buttons-design/main/buy_me_a_coffe/buy_me_a_coffe.png" width="200" alt="Buy me a Coffee" />
 </a>
 ```
 
 ```html
 <a href="https://www.paypal.com/donate/?hosted_button_id=NYCR5M6QHZ7JC">
-  <img src="https://raw.githubusercontent.com/LuisGamas/buttons-design/main/paypal/paypal.png" width="200" alt="Donate with PayPal" />
+  <img src="https://raw.githubusercontent.com/luisgamas/buttons-design/main/paypal/paypal.png" width="200" alt="Donate with PayPal" />
 </a>
 ```
 
 ```html
-<a href="https://github.com/sponsors/LuisGamas">
-  <img src="https://raw.githubusercontent.com/LuisGamas/buttons-design/main/github_sponsor/github_sponsor.png" width="200" alt="Sponsor me on GitHub" />
+<a href="https://github.com/sponsors/luisgamas">
+  <img src="https://raw.githubusercontent.com/luisgamas/buttons-design/main/github_sponsor/github_sponsor.png" width="200" alt="Sponsor me on GitHub" />
 </a>
 ```
 
